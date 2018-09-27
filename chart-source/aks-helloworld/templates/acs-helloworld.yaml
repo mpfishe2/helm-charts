@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: acs-helloworld-{{.Release.Name}}
-        image: neilpeterson/aks-helloworld:v1
+        image: mpfacr.azurecr.io/mpfplumber:c2
         ports:
         - containerPort: 80
         env:
